@@ -1,0 +1,26 @@
+#user_slider {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 3%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#profilepic_user_slider {
+  height: 40px !important;
+  width: 40px !important;
+}
+
+#username_user_slider {
+  flex: 1 1 auto;
+  margin-left: 5%;
+}
+
+.add_user_slider {
+  flex: 1 1 auto;
+  cursor: pointer;
+  flex: none;
+  padding-right: 10%;
+}

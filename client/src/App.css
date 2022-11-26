@@ -1,0 +1,11 @@
+body {
+  background-color: #5F6BDF;
+  background-size: cover;
+  padding: 4%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* overflow-x: hidden; */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

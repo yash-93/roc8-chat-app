@@ -1,0 +1,18 @@
+.friend-container {
+  width: 100%;
+  /* height: fit-content; */
+  display: flex;
+  /* border: 1px solid red; */
+}
+
+.profile-pic {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+
+.username {
+  padding-left: 5%;
+  padding-top: 5%;
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+#logo {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+#home-text {
+  text-align: center;
+  margin-top: 20vh;
+  color: #ffffff;
+}
+
+#fwd-icon {
+  cursor: pointer;
+  font-size: 3em;
+}
+
+#login-form {
+  text-align: center;
+  margin-top: 18vh;
+}
+
+#switchBtn {
+  margin: 0 auto;
+  display: block;
+}

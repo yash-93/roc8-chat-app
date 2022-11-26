@@ -1,0 +1,33 @@
+#main-chat-container {
+  width: 90vw;
+  height: 80vh;
+  margin: auto auto;
+  box-shadow: 2px -2px 10px black;
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+}
+
+.slide-in {
+  animation: slide-in-keyframes 0.5s;
+}
+@keyframes slide-in-keyframes {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 75%;
+  }
+}
+
+.slide-out {
+  animation: slide-out-keyframes 1s;
+}
+@keyframes slide-out-keyframes {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
