@@ -6,7 +6,7 @@ import "./MessageSection.css";
 import Message from "./Message/Message";
 
 const MessageSection = (props) => {
-  const [msg, setMsg] = useState();
+  const [msg, setMsg] = useState("");
   const [receiverId, setReceiverId] = useState();
   var list = props.msgs.map((message, i) => (
     <div key={i}>
@@ -26,7 +26,7 @@ const MessageSection = (props) => {
     var user = JSON.parse(localStorage.getItem("userData"));
     let msgToSend = msg;
     setMsg("");
-    props.messageHandler(`${msgToSend}`, user.userId, receiverId, user.username);
+    if(msgToSend?.length > 0) props.messageHandler(`${msgToSend}`, user.userId, receiverId, user.username);
   };
 
   return (
@@ -45,6 +45,7 @@ const MessageSection = (props) => {
               type="text"
               placeholder="Enter message here..."
               onChange={(event) => setMsg(event.target.value)}
+              value={msg}
             />
             <Button id="sendMsg">Send</Button>
           </form>
