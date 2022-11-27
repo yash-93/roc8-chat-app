@@ -86,7 +86,7 @@ io.on("connection", (socket) => {
     onlineUsers.delete(u);
 
     temp2 = userOnlineFriends.get(u);
-    for (var i = 0; i < temp2.length; i++) {
+    for (var i = 0; i < temp2.length || 0; i++) {
       temp3 = userOnlineFriends.get(temp2[i]);
       temp3.splice(temp3.indexOf(u), 1);
       userOnlineFriends.set(temp2[i], temp3);
