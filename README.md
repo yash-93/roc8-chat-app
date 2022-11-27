@@ -19,7 +19,7 @@ A messaging application that provides realt time chat between two users.
 ## Run Demo
 
 - Visit https://chat-app-client-chi.vercel.app/
-- Login using the below mentioned credentials in two different browsers
+- Login using the below mentioned credentials in two different browsers or mobiles
   - username: yashdeep, password: yashdeep
   - username: prasun, password: prasun
 - Once both users have logged in you should be able to see their names on the dashboard.
