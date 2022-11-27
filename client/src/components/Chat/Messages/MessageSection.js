@@ -25,6 +25,7 @@ const MessageSection = (props) => {
     event.preventDefault();
     var user = JSON.parse(localStorage.getItem("userData"));
     props.messageHandler(`${msg}`, user.userId, receiverId, user.username);
+    setMsg("");
   };
 
   return (
