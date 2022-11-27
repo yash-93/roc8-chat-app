@@ -23,4 +23,4 @@ A messaging application that provides realt time chat between two users.
   - username: yashdeep, password: yashdeep
   - username: prasun, password: prasun
 - Once both users have logged in you should be able to see their names on the dashboard.
-- Select the user and start messaging.
+- Select the user and HAPPY MESSAGING!.
