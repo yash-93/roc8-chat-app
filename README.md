@@ -1,6 +1,6 @@
 # Chat App
 
-A messaging application that provides realt time chat between two users.
+A messaging application that provides real time chat between two users.
 
 ## Usage
 
